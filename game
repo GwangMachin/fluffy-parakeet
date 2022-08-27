@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<window.h>
+#include<coin.h>
+
+
+void SetConsikeView()
+{
+  system("mode con:cols=100 lines=25);
+  system("title Google Dinosaurs. By BlockDMask");
+ }
+void GotoXY(int x, int y)
+{
+  COORD Pos;
+  Pos.,X=2*x;
+  Pos.Y= y;
+  SetConsleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), Pos);
+ }
